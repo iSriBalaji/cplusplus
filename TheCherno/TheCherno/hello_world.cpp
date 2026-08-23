@@ -2,7 +2,7 @@
 
 #define INTEGER int; // this basically have the int in INTEGER so we can use INTEGER in all the places and the preprocessor basically replaces it while compiling
 
-void Log(const char*);  // we are just declaring it here which exist in another .cpp file, the compiler just trust that this exist in someother file in .cpp - the linker actually helps for it, if it is not there it will be throwed as a linker error
+void Log(const char*);  // we are just declaring it here which exist in another .cpp file, the compiler just trust that this exist in someother file in .cpp - the linker actually helps for it, if it is not there it will be throwed as a linker error - is called a function declaration (or function prototype)
 
 //Comment
 

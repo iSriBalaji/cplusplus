@@ -28,3 +28,8 @@ the compiler basically compiles to machine code, which is unreadable but cherno 
 
 Know the difference compiling and linking are two different things, also in the error know what kind of error it is like compiling or linking there
 
+## Linker
+linker looks for the main function there, we can also configure to use other funciton to start but the main fucntion is the start of any project by deafult
+if the error code starts with 'C' like C4245 it is a compiler error and other error is LNK2134 which is a linker error so we can know where the error is occuring
+if a static keyword function is defined - it is  This function can only be used within this .cpp file.
+
